@@ -1,0 +1,34 @@
+
+.outgoing {
+	background: #e1ffc7;
+	border-radius: 10px 10px 0px 10px;
+	margin-bottom: 20px;
+	padding: 14px;
+	width: auto;
+	max-width: 60%;
+	align-self: end;
+	position: relative;
+}
+.incoming {
+	background: gray;
+	border-radius: 10px 10px 10px 0;
+	margin-bottom: 20px;
+	padding:14px;
+	width: auto;
+	max-width: 50%;
+	align-self: start; 
+	position: relative;
+}
+.senderName {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+	font-size: 10px;
+}
+.date {
+	color: rgb(188, 188, 188);
+	font-size: 10px;
+	position: absolute;
+	bottom: 3px;
+	right: 5px;
+}
