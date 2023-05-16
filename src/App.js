@@ -7,11 +7,11 @@ import Chat from './components/Chat/Chat';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
     <div className="App">
-      <Navigate to='/login' replace={true}/>
+
       <Routes >
-        <Route path='/login' element={<Login />} />
+        <Route path='/' element={<Login />} />
         <Route path='/chat' element={<CreateChat />} />
         <Route path='/chat/:num' element={<Chat />} />
       </Routes>
